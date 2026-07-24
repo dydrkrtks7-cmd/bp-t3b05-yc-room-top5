@@ -1,335 +1,546 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>염창 룸싸롱 상세정보 및 이용가이드 | 염창 룸싸롱 TOP5</title>
-  <meta name="description" content="염창역 목동 인근에서 비즈니스 바이어 접대나 진중한 모임 때 격조 높은 퀄리티와 정직한 정찰제 가격을 갖춘 베스트 5 업소 엄선. 이용 절차, 상세한 위치 시그널 및 맞춤형 가이드 수록.">
-  <meta name="keywords" content="염창 룸싸롱 TOP5, 염창 룸싸롱 위치, 염창 룸싸롱 예약방법, 염창 룸싸롱 꿀팁">
-  <link rel="canonical" href="https://t3b05-yc-room-top5.pages.dev/about.html">
-  <meta name="bpaas-design-system" content="midnight-glass">
-  <meta name="bpaas-design-theme" content="kr-t3b05-yc-room-top5">
-  <style>
-    
-    :root {
-      --bg-dark: #161419;
-      --bg-card: rgba(255, 255, 255, 0.03);
-      --border-color: rgba(255, 255, 255, 0.08);
-      --primary-neon: #2e1212;
-      --accent-neon: #d4af37;
-      --text-main: #f4f4f5;
-      --text-muted: #a1a1aa;
-    }
-    
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    body {
-      background-color: var(--bg-dark);
-      color: var(--text-main);
-      font-family: sans-serif, -apple-system, sans-serif;
-      line-height: 1.7;
-      overflow-x: hidden;
-    }
-    
-    .glow-header {
-      background: rgba(0, 0, 0, 0.5);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border-color);
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-    
-    .nav-container {
-      max-width: 1100px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 16px 20px;
-    }
-    
-    .logo-glow {
-      font-size: 1.4rem;
-      font-weight: 800;
-      color: #fff;
-      text-decoration: none;
-      background: linear-gradient(135deg, #fff, var(--accent-neon));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-    }
-    
-    .nav-links a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin-left: 24px;
-      font-size: 0.95rem;
-      font-weight: 600;
-      transition: color 0.3s;
-    }
-    
-    .nav-links a:hover {
-      color: var(--accent-neon);
-    }
-    
-    .hero-glow {
-      padding: 120px 20px 80px;
-      text-align: center;
-      background: radial-gradient(circle at top, var(--primary-neon) 0%, transparent 70%);
-      position: relative;
-    }
-    
-    .hero-glow h1 {
-      font-size: 3rem;
-      font-weight: 900;
-      margin-bottom: 20px;
-      letter-spacing: -0.05em;
-      line-height: 1.2;
-    }
-    
-    .gradient-txt {
-      background: linear-gradient(135deg, #fff, var(--accent-neon));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    
-    .hero-glow p {
-      font-size: 1.2rem;
-      color: var(--text-muted);
-      max-width: 700px;
-      margin: 0 auto 30px;
-    }
-    
-    .neon-btn {
-      display: inline-block;
-      padding: 14px 32px;
-      background: linear-gradient(135deg, var(--primary-neon), var(--accent-neon));
-      color: white;
-      text-decoration: none;
-      font-weight: 700;
-      border-radius: 9999px;
-      box-shadow: 0 4px 20px rgba(236, 72, 153, 0.3);
-      transition: all 0.3s ease;
-    }
-    
-    .neon-btn:hover {
-      transform: scale(1.03);
-      box-shadow: 0 6px 25px rgba(236, 72, 153, 0.6);
-    }
-    
-    .sec-wrap {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 80px 20px;
-    }
-    
-    .glass-box {
-      background: var(--bg-card);
-      border: 1px solid var(--border-color);
-      border-radius: 20px;
-      padding: 40px;
-      backdrop-filter: blur(8px);
-      margin-bottom: 40px;
-    }
-    
-    .glass-box h2 {
-      font-size: 2rem;
-      font-weight: 800;
-      margin-bottom: 24px;
-      color: #fff;
-      border-left: 4px solid var(--accent-neon);
-      padding-left: 16px;
-    }
-    
-    .glass-box p {
-      font-size: 1.05rem;
-      color: var(--text-muted);
-      margin-bottom: 20px;
-    }
-    
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 24px;
-      margin-top: 32px;
-    }
-    
-    .mini-card {
-      background: rgba(255, 255, 255, 0.02);
-      border: 1px solid var(--border-color);
-      border-radius: 12px;
-      padding: 24px;
-      transition: border-color 0.3s, transform 0.3s;
-    }
-    
-    .mini-card:hover {
-      border-color: var(--accent-neon);
-      transform: translateY(-2px);
-    }
-    
-    .mini-card h3 {
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 12px;
-    }
-    
-    .mini-card p {
-      font-size: 0.95rem;
-      color: var(--text-muted);
-      margin-bottom: 0;
-    }
-    
-    .ugc-review {
-      border-top: 1px solid var(--border-color);
-      padding-top: 20px;
-      margin-top: 20px;
-    }
-    
-    .reviewer-meta {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.85rem;
-      color: var(--accent-neon);
-      margin-bottom: 8px;
-      font-weight: 600;
-    }
-    
-    .reviewer-text {
-      font-size: 0.95rem;
-      color: var(--text-main);
-      font-style: italic;
-    }
-    
-    .phone-bar {
-      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.05), transparent);
-      padding: 16px;
-      border-radius: 8px;
-      margin: 20px 0;
-      font-size: 1.3rem;
-      font-weight: 800;
-      letter-spacing: 0.05em;
-    }
-    
-    .phone-bar a {
-      color: var(--accent-neon);
-      text-decoration: none;
-    }
-    
-    footer {
-      background: rgba(0, 0, 0, 0.4);
-      border-top: 1px solid var(--border-color);
-      padding: 40px 20px;
-      text-align: center;
-      font-size: 0.9rem;
-      color: var(--text-muted);
-    }
-    
-    footer p {
-      margin-bottom: 8px;
-    }
-    
-    footer a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin: 0 10px;
-    }
-    
-    footer a:hover {
-      color: var(--accent-neon);
-    }
-    
-    @media(max-width: 768px) {
-      .hero-glow h1 {
-        font-size: 2.2rem;
-      }
-      .nav-links {
-        display: none;
-      }
-      .glass-box {
-        padding: 24px;
-      }
-    }
-  
-  </style>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "AboutPage",
-      "name": "염창 룸싸롱 상세정보",
-      "url": "https://t3b05-yc-room-top5.pages.dev/about.html",
-      "description": "염창 룸싸롱의 상세 위치, 이용 프로세스 및 예약 안내."
-    }
-  </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>이대 노래방 추천 가이드 — 정보 | 소리·공간·가격 완벽 분석</title>
+<meta name="description" content="이대역 노래방 지역 정보 총정리. 교통편, 시간대별 분위기, 합리적 이용 전략까지. 단순 목록이 아닌 실전형 이대 노래방 가이드.">
+<meta name="keywords" content="이대 노래방 정보, 이대역 노래방 이용 팁, 이대 노래방 교통편, 이화여대 근처 노래방, 이대 노래방 시간대">
+<link rel="canonical" href="https://idae-karaoke-note.best-samseong-hotplace.xyz/information.html">
+<meta property="og:title" content="이대 노래방 정보 총정리 — 지역·교통·전략 가이드">
+<meta property="og:description" content="이대역 주변 노래방을 제대로 이용하려면 알아야 할 모든 것. 지역 구조, 접근 경로, 시간대별 전략까지 정리했습니다.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://idae-karaoke-note.best-samseong-hotplace.xyz/information.html">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --bg: #0a0a0f;
+  --surface: #14141f;
+  --surface-alt: #1a1a2e;
+  --border: #2a2a3e;
+  --text: #e8e8f0;
+  --text-dim: #8888a0;
+  --accent: #c8a0ff;
+  --accent-dim: #9070c0;
+  --accent-glow: rgba(200, 160, 255, 0.15);
+  --danger: #ff6b8a;
+  --success: #6bffc8;
+  --warn: #ffd76b;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --transition: 0.25s ease;
+}
+body {
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4 { line-height: 1.3; font-weight: 700; }
+a { color: var(--accent); text-decoration: none; transition: color var(--transition); }
+a:hover { color: #e0c0ff; }
+
+.n-wrap-g7 { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+
+/* Header & Nav */
+.v-card-w8g6 {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(10, 10, 15, 0.92);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+}
+.v-card-w8g6-inner {
+  max-width: 960px; margin: 0 auto;
+  padding: 0 20px;
+  display: flex; align-items: center; justify-content: space-between;
+  height: 60px;
+}
+.q-side-j5zv { font-size: 1rem; font-weight: 700; color: var(--accent); letter-spacing: -0.5px; }
+.q-side-j5zv span { color: var(--text-dim); font-weight: 400; font-size: 0.85rem; margin-left: 6px; }
+
+.n-btn-ns23 {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 8px 16px; border-radius: var(--radius-sm);
+  background: var(--surface); border: 1px solid var(--border);
+  color: var(--text-dim); font-size: 0.85rem; cursor: pointer;
+  transition: all var(--transition);
+}
+.n-btn-ns23:hover, .n-btn-ns23.active {
+  background: var(--accent-glow); border-color: var(--accent-dim); color: var(--accent);
+}
+
+.r-list-rftf {
+  display: flex; gap: 6px; align-items: center; flex-wrap: wrap;
+}
+
+/* Hero */
+.hero-w3k8 {
+  padding: 64px 0 48px; text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+.hero-w3k8 h1 {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  color: var(--text);
+  margin-bottom: 16px;
+  letter-spacing: -1px;
+}
+.hero-w3k8 h1 em {
+  font-style: normal; color: var(--accent);
+}
+.hero-w3k8 p {
+  font-size: 1.05rem; color: var(--text-dim);
+  max-width: 600px; margin: 0 auto;
+}
+
+/* Section */
+.section-g4m2 { padding: 56px 0; }
+.section-g4m2 + .section-g4m2 { border-top: 1px solid var(--border); }
+
+.section-label-t9p {
+  display: inline-block;
+  font-size: 0.75rem; font-weight: 600;
+  color: var(--accent); background: var(--accent-glow);
+  padding: 4px 12px; border-radius: 20px;
+  margin-bottom: 12px; letter-spacing: 0.5px;
+}
+.section-g4m2 h2 {
+  font-size: clamp(1.25rem, 3vw, 1.6rem);
+  margin-bottom: 8px;
+}
+.section-g4m2 > .n-wrap-g7 > p.sub-p-x7 { color: var(--text-dim); margin-bottom: 32px; font-size: 0.95rem; }
+
+/* Info Cards Grid */
+.info-grid-q2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+.info-card-z5 {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  transition: border-color var(--transition), transform var(--transition);
+}
+.info-card-z5:hover {
+  border-color: var(--accent-dim);
+  transform: translateY(-2px);
+}
+.info-card-z5 .icon-k3 {
+  width: 40px; height: 40px; border-radius: 10px;
+  background: var(--accent-glow);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.2rem; margin-bottom: 16px;
+}
+.info-card-z5 h3 {
+  font-size: 1.05rem; margin-bottom: 8px; color: var(--text);
+}
+.info-card-z5 p {
+  font-size: 0.9rem; color: var(--text-dim); line-height: 1.65;
+}
+
+/* Detail Row */
+.detail-row-b8 {
+  display: flex; align-items: flex-start; gap: 16px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+}
+.detail-row-b8:last-child { border-bottom: none; }
+.detail-row-b8 .num-d4 {
+  min-width: 32px; height: 32px;
+  border-radius: 8px; background: var(--surface-alt);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.85rem; font-weight: 700; color: var(--accent);
+  flex-shrink: 0;
+}
+.detail-row-b8 .content-d4 h4 {
+  font-size: 0.95rem; margin-bottom: 4px;
+}
+.detail-row-b8 .content-d4 p {
+  font-size: 0.88rem; color: var(--text-dim); line-height: 1.6;
+}
+
+/* Highlight Box */
+.highlight-box-h3 {
+  background: var(--surface);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 24px 28px;
+  margin: 24px 0;
+}
+.highlight-box-h3 p {
+  font-size: 0.95rem; color: var(--text-dim); line-height: 1.7;
+}
+.highlight-box-h3 strong { color: var(--accent); }
+
+/* Transit Table */
+.transit-table-t6 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+.transit-table-t6 th, .transit-table-t6 td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.88rem;
+}
+.transit-table-t6 th {
+  color: var(--text-dim); font-weight: 600;
+  background: var(--surface);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.transit-table-t6 td { color: var(--text); }
+.transit-table-t6 tr:hover td { background: var(--surface); }
+
+.tag-s8 {
+  display: inline-block;
+  padding: 3px 10px; border-radius: 20px;
+  font-size: 0.75rem; font-weight: 600;
+}
+.tag-s8.easy { background: rgba(107, 255, 200, 0.12); color: var(--success); }
+.tag-s8.medium { background: rgba(255, 215, 107, 0.12); color: var(--warn); }
+.tag-s8.hard { background: rgba(255, 107, 138, 0.12); color: var(--danger); }
+
+/* FAQ */
+.faq-list-r2 { margin-top: 16px; }
+.faq-item-v7 {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.faq-item-v7 summary {
+  padding: 18px 24px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+  list-style: none;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.faq-item-v7 summary::after {
+  content: '+';
+  font-size: 1.2rem; color: var(--text-dim);
+  transition: transform var(--transition);
+}
+.faq-item-v7[open] summary::after {
+  transform: rotate(45deg);
+}
+.faq-item-v7 summary::-webkit-details-marker { display: none; }
+.faq-item-v7 .faq-body-a3 {
+  padding: 0 24px 20px;
+  font-size: 0.9rem;
+  color: var(--text-dim);
+  line-height: 1.7;
+}
+
+/* CTA Bottom */
+.cta-bottom-x1 {
+  text-align: center; padding: 64px 0;
+  border-top: 1px solid var(--border);
+}
+.cta-bottom-x1 h2 { font-size: 1.5rem; margin-bottom: 12px; }
+.cta-bottom-x1 p { color: var(--text-dim); margin-bottom: 28px; font-size: 0.95rem; }
+.btn-primary-q9 {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 14px 32px;
+  background: var(--accent); color: var(--bg);
+  border: none; border-radius: var(--radius);
+  font-size: 0.95rem; font-weight: 700;
+  cursor: pointer; transition: all var(--transition);
+}
+.btn-primary-q9:hover {
+  background: #d8b8ff; transform: translateY(-1px);
+}
+
+/* Footer */
+.footer-c2 {
+  padding: 32px 0;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-w3k8 { padding: 48px 0 36px; }
+  .section-g4m2 { padding: 40px 0; }
+  .info-grid-q2 { grid-template-columns: 1fr; }
+  .transit-table-t6 { font-size: 0.8rem; }
+  .transit-table-t6 th, .transit-table-t6 td { padding: 10px 8px; }
+  .v-card-w8g6-inner { padding: 0 16px; }
+  .n-wrap-g7 { padding: 0 16px; }
+  .highlight-box-h3 { padding: 18px 20px; }
+}
+</style>
 </head>
 <body>
 
-  <header class="glow-header">
-    <div class="nav-container">
-      <a href="index.html" class="logo-glow">염창 룸싸롱</a>
-      <nav class="nav-links">
-        <a href="index.html">홈</a>
-        <a href="about.html">상세정보</a>
-        
-      </nav>
-    </div>
-  </header>
+<!-- Header -->
+<header class="v-card-w8g6">
+  <div class="v-card-w8g6-inner">
+    <div class="q-side-j5zv">이대 노래방 가이드<span>정보</span></div>
+    <nav class="r-list-rftf">
+      <a href="https://idae-karaoke-note.best-samseong-hotplace.xyz/" class="n-btn-ns23 active">홈</a>
+      <a href="https://idae-karaoke-note.best-samseong-hotplace.xyz/sound.html" class="n-btn-ns23">소리</a>
+      <a href="https://idae-karaoke-note.best-samseong-hotplace.xyz/space.html" class="n-btn-ns23">공간</a>
+      <a href="https://idae-karaoke-note.best-samseong-hotplace.xyz/price.html" class="n-btn-ns23">가격</a>
+      <a href="https://idae-karaoke-note.best-samseong-hotplace.xyz/information.html" class="n-btn-ns23">정보</a>
+    </nav>
+  </div>
+</header>
 
-  <section class="hero-glow">
-    <h1><span class="gradient-txt">ABOUT</span> 염창 룸싸롱</h1>
-    <p>염창 지역의 로컬 가이드로서 형들에게 가장 안전하고 신뢰할 수 있는 정보를 제공합니다.</p>
-    <div class="phone-bar">
-      📞 문의 및 직통 예약: <a href="tel:010-6279-0862">010-6279-0862</a>
-    </div>
-  </section>
+<!-- Hero -->
+<section class="hero-w3k8">
+  <div class="n-wrap-g7">
+    <h1><em>이대 노래방</em>,<br>지역 정보로 읽는 실전 가이드</h1>
+    <p>위치만 안다고 제대로 간 게 아니다. 이대역 주변 노래방 지역의 구조를 이해해야 당신의 밤이 달라진다.</p>
+  </div>
+</section>
 
-  <main class="sec-wrap">
-    <div class="glass-box">
-      <h2>찾아오시는 길 & 지역 특성</h2>
-      <p>우리 염창 룸싸롱 명소들은 교통 인프라가 워낙 뛰어난 핫플레이스 요충지에 위치해 있어. 대중교통 지하철역에서 도보로 3~5분이면 도착할 수 있는 초역세권이라 차 없이 가볍게 오기에도 너무 좋아.</p>
-      <p>자차로 이동하는 형들도 걱정 없는 게, 넉넉한 주차 시설과 전용 발렛파킹 서비스를 지원해서 주차 스트레스 없이 아주 쾌적하게 방문할 수 있어. 예약할 때 차량 소유 여부를 말씀해주시면 미리 주차 공간 확보해 드리는 건 기본 센스지.</p>
+<!-- 지역 구조 -->
+<section class="section-g4m2">
+  <div class="n-wrap-g7">
+    <span class="section-label-t9p">AREA STRUCTURE</span>
+    <h2>이대역 500m, 세 개의 세계</h2>
+    <p class="sub-p-x7">이대역에서 동서남북으로 500m만 벗어나면 분위기가 완전히 바뀐다. 노래방을 고를 때 이 구조를 모른 채 들어가면 손해다.</p>
+    <div class="info-grid-q2">
+      <div class="info-card-z5">
+        <div class="icon-k3">🚇</div>
+        <h3>이대역 2·3번 출구 일대</h3>
+        <p>상권의 중심축. 대형 프랜차이즈와 소규모 업소가 혼재한다. 유동인구가 가장 많은 구간이지만, 그만큼 평일에도 대기 시간이 발생하는 곳이다. 점심·저녁 식사 후 방문객이 겹치는 19~21시가 피크.</p>
+      </div>
+      <div class="info-card-z5">
+        <div class="icon-k3">🌳</div>
+        <h3>이화여대 정문·대암로 쪽</h3>
+        <p>언덕 위, 조용한 주거지 경계선. 소규모 노래방이 밀집해 있으며 대형 업소가 드물다. 소리 차단이 잘 된 업소가 의외로 많고, 가격도 메인 상권보다 관대한 편이다. 단, 영업시간이 빨리 끝나는 곳이 있으니 확인 필수.</p>
+      </div>
+      <div class="info-card-z5">
+        <div class="icon-k3">🔥</div>
+        <h3>연희동·서강대 방면</h3>
+        <p>이대역에서 걸어서 10~15분. 이대 상권의 그림자 지대이자 오히려 가성비가 터지는 구간. 학생가격이 유지되는 업소가 많고, 2차·3차로 넘어오면 오히려 분위기가 산다. 발품을 팔 준비가 된 사람만 누리는 영역.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 접근성 & 교통 -->
+<section class="section-g4m2">
+  <div class="n-wrap-g7">
+    <span class="section-label-t9p">ACCESS & TRANSIT</span>
+    <h2>접근성 분석 —谁가 먼저 도착하느냐가 전부다</h2>
+    <p class="sub-p-x7">노래방 선택에서 교통 편의성을 무시하는 건 요리에서 소금을 빼는 것과 같다.</p>
+
+    <div class="highlight-box-h3">
+      <p><strong>핵심 판단 기준:</strong> 노래방 접근성을 평가할 때 "지역에서 가장 가까운 출구까지 몇 분"이 아니라 "목적지에서 출구까지의 보행 경로가 얼마나 직관적인가"를 봐야 한다. 이대역은 2·3번 출구 사이 거리가 의외로 멀고, 보행 경로가 단순하지 않다.</p>
     </div>
 
-    <div class="glass-box">
-      <h2>이용 프로세스 3단계</h2>
-      <p>1. <strong>실시간 유선 문의</strong>: 010-6279-0862 번호로 연락해서 방문 희망 시간과 총 인원수를 말씀해 주세요. 형들 취향에 딱 맞게 세팅해 드립니다.</p>
-      <p>2. <strong>맞춤형 가이드 제안</strong>: 담당 실장이 당일의 수질과 추천 패키지, 투명한 가격에 대해 정직하게 알려드립니다. 바가지는 1%도 용납 안 하니까 걱정마!</p>
-      <p>3. <strong>입장 및 힐링</strong>: 도착하자마자 대기 없이 프라이빗한 룸으로 즉시 안내받고, 최고의 에코 음향과 시설 속에서 스트레스를 싹 날리시면 됩니다.</p>
-      
-      <div class="phone-bar" style="text-align: center; background: rgba(255,255,255,0.02);">
-        📞 언제든 편하게 아래 직통 번호로 연락 줘! <br>
-        <a href="tel:010-6279-0862">010-6279-0862</a> (터치 시 통화)
+    <table class="transit-table-t6">
+      <thead>
+        <tr>
+          <th>접근 경로</th>
+          <th>소요 시간</th>
+          <th>편의도</th>
+          <th>비고</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>이대역 2번 출구 → 메인 상권</td>
+          <td>도보 1~3분</td>
+          <td><span class="tag-s8 easy">쉬움</span></td>
+          <td>가장 접근성 높은 구간. 대형 업소 밀집</td>
+        </tr>
+        <tr>
+          <td>이대역 3번 출구 → 언덕 방면</td>
+          <td>도보 3~7분</td>
+          <td><span class="tag-s8 medium">보통</span></td>
+          <td>경사有. 겨울·우천 시 주의</td>
+        </tr>
+        <tr>
+          <td>이대역 2번 출구 → 연희동</td>
+          <td>도보 10~15분</td>
+          <td><span class="tag-s8 medium">보통</span></td>
+          <td>야간 조명 밀집 구간. 안전 문제 없음</td>
+        </tr>
+        <tr>
+          <td>버스 이용 → 이화여대 앞 정류장</td>
+          <td>상차 후 1~2정거장</td>
+          <td><span class="tag-s8 easy">쉬움</span></td>
+          <td>야간 버스 배차 간격 넓음. 확인 필요</td>
+        </tr>
+        <tr>
+          <td>택시 → 이대역 정문 하차</td>
+          <td>강남 기준 20~30분</td>
+          <td><span class="tag-s8 easy">쉬움</span></td>
+          <td>정문 하차 후 도보 2~5분. 정확한 위치 전달 필수</td>
+        </tr>
+        <tr>
+          <td>차량 → 주차</td>
+          <td>-</td>
+          <td><span class="tag-s8 hard">어려움</span></td>
+          <td>노래방 자체 주차 공간 드묾. 인근 공영주차장 이용 권장</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- 시간대별 전략 -->
+<section class="section-g4m2">
+  <div class="n-wrap-g7">
+    <span class="section-label-t9p">TIME STRATEGY</span>
+    <h2>시간대별 밤 전략 — 같은 장소가 아니다</h2>
+    <p class="sub-p-x7">이대 노래방은 시간대에 따라 완전히 다른 공간이 된다. 오후 4시에 봤던 그 업소가 밤 11시에 또 같을 거라고?</p>
+
+    <div class="detail-row-b8">
+      <div class="num-d4">1</div>
+      <div class="content-d4">
+        <h4>오후 2시 ~ 5시 — 조용한 채비 시간</h4>
+        <p>가장 여유로운 시간대. 워크인으로 즉시 입장 가능하며, 선곡에 집중할 수 있다. 프랜차이즈 업소는 보통 이 시간에 리뉴얼·청소를 진행하므로, 소규모 업소 위주로 움직이는 게 현명하다. 학생 단체가 아직 몰리기 전이라는 것도 장점.</p>
+      </div>
+    </div>
+    <div class="detail-row-b8">
+      <div class="num-d4">2</div>
+      <div class="content-d4">
+        <h4>오후 6시 ~ 9시 — 피크 전 교통정리</h4>
+        <p>식사 시간과 겹치면서 유동인구가 늘어나는 구간. 이 시간에 예약을 잡아두면 9시 이후 혼잡을 피할 수 있다. 일부 업소는 이 시간대 프로모션을 진행하기도 하니, 방문 전 문의가 필요하다.</p>
+      </div>
+    </div>
+    <div class="detail-row-b8">
+      <div class="num-d4">3</div>
+      <div class="content-d4">
+        <h4>밤 9시 ~ 12시 — 본 게임</h4>
+        <p>이대 노래방의 진짜 얼굴이 드러나는 시간. 대기 시간이 길어지고, 소리 관리가 제대로 된 업소와 안 된 업소의 격차가 극명해진다. 이 시간대에 방문한다면 소리 퀄리티를 최우선으로 봐야 한다. 공간은 어차피 타협이다.</p>
+      </div>
+    </div>
+    <div class="detail-row-b8">
+      <div class="num-d4">4</div>
+      <div class="content-d4">
+        <h4>자정 이후 — 남의 영역</h4>
+        <p>영업이 가능한 업소는 있지만 수가 확 줄어든다. 이 시간대는 이미 정해진 장소로 가는 게 맞지, 이 시간에 새로 탐색하는 건 리스크가 크다. 영업시간 확인은 기본 중의 기본.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 실전 팁 -->
+<section class="section-g4m2">
+  <div class="n-wrap-g7">
+    <span class="section-label-t9p">PRACTICAL TIPS</span>
+    <h2>정보의 함정 — 이것만은 알아둬라</h2>
+    <p class="sub-p-x7">노래방 정보를 수집할 때 가장 위험한 건 "대충 유명한 곳"에 의존하는 것이다. 당신이 듣는 정보의 70%는 광고 혹은 과거의 잔상이다.</p>
+
+    <div class="info-grid-q2">
+      <div class="info-card-z5">
+        <div class="icon-k3">⚠️</div>
+        <h3>리뷰 시간차 주의</h3>
+        <p>2023년 이전 리뷰는 현재 시설 상태와 무관하다. 업소의 리모델링 주기는 평균 2~3년. 1년 전 리뷰도 이미 반쯤은 과거의 기록이다.</p>
+      </div>
+      <div class="info-card-z5">
+        <div class="icon-k3">💡</div>
+        <h3>가격 표기의 진실</h3>
+        <p>홈페이지나 앱에 표시된 가격은 "기본 시간 요금"일 뿐, 추가 시간·음료·부가 서비스 비용이 빠져 있다. 실질 지출액은 표시 가격의 1.3~1.5배다. 반드시 추가 요금 항목을 확인할 것.</p>
+      </div>
+      <div class="info-card-z5">
+        <div class="icon-k3">📍</div>
+        <h3>"이대역 근처"의 범위</h3>
+        <p>"이대역 도보 5분"이라는 표현의 신뢰도는 낮다. 실제로는 8~12분인 경우가 부지기수다. 지도 앱으로 직접 거리를 확인하는 습관이 핵심.</p>
+      </div>
+      <div class="info-card-z5">
+        <div class="icon-k3">🔇</div>
+        <h3>소음 차단 ≠ 방음</h3>
+        <p>"방음 시설 완비"라는 표현에 현혹되지 말 것. 소리가 안 새는 것과 내부 음질이 좋은 것은 완전히 다른 문제다. 방음과 음향은 별개의 비용 구조다.</p>
+      </div>
+      <div class="info-card-z5">
+        <div class="icon-k3">👥</div>
+        <h3>인원수 대비 공간 계산</h3>
+        <p>"10인실"이라 적힌 방에 10명이 앉으면 사실상 꽉 찬 상태. 쾌적한 이용을 원한다면 인원수 대비 30% 넓은 룸을 잡는 게 일반적이다.</p>
+      </div>
+      <div class="info-card-z5">
+        <div class="icon-k3">🔄</div>
+        <h3>프랜차이즈의 역설</h3>
+        <p>프랜차이즈라고 품질이 일정하리란 보장은 없다. 같은 브랜드라도 지점별 편차가 크며, 이대역 인근만 해도 운영 주체가 다른 가맹점이 섞여 있다. 브랜드보다 매장 운영 주체를 아는 게 낫다.</p>
       </div>
     </div>
 
-    <div class="glass-box">
-      <h2>자주 묻는 질문 (FAQ)</h2>
-      <div style="margin-bottom: 20px;">
-        <h4 style="color: var(--accent-neon); margin-bottom: 8px;">Q. 예약 없이 가도 이용할 수 있나요?</h4>
-        <p>A. 평일 이른 시간대에는 가능할 수도 있지만, 피크타임(금, 토 저녁 등)에는 대기 시간이 2~3시간씩 걸리거나 자리가 없을 수 있어. 소중한 형들의 골든타임을 아끼려면 출발 전에 010-6279-0862로 딱 1분만 시간 내서 예약 전화를 주는 걸 적극 추천해!</p>
-      </div>
-      <div>
-        <h4 style="color: var(--accent-neon); margin-bottom: 8px;">Q. 추가금이 붙는 황당한 경우가 있나요?</h4>
-        <p>A. 요즘 그런 구시대적 영업 하는 곳들 많은데, 우리는 100% 정찰제를 준수하고 있어. 사전에 예약 통화 시 말씀드린 코스 가격 그대로 진행되니까 추가금 눈탱이 맞을 걱정은 완전히 접어둬도 좋아.</p>
-      </div>
+    <div class="highlight-box-h3" style="margin-top: 32px;">
+      <p><strong>솔직히 말하면:</strong> 이대 노래방 시장은 정보 비대칭이 심한 영역이다. 소규모 업소가 대부분이고, 온라인 정보가 부정확한 곳이 많다. 그래서 이 가이드가 존재한다. 소리·공간·가격이라는 세 축으로 분류한 이유는 단순하다 — 다른 기준으로는 의미 있는 비교가 안 되기 때문이다.</p>
     </div>
-  </main>
+  </div>
+</section>
 
-  <footer>
-    <p><strong>염창 룸싸롱 찐후기 가이드 Portal</strong></p>
-    <p>주소: 서울특별시 염창구 일대 | 연락처: 010-6279-0862</p>
-    <p>
-      <a href="index.html">홈</a> | 
-      <a href="about.html">상세정보</a>
-      
-    </p>
-    <p style="margin-top: 16px; opacity: 0.5;">&copy; 2026 염창 룸싸롱 Portal. All Rights Reserved. 본 사이트는 성인 전용 정보 포털입니다.</p>
-  </footer>
+<!-- FAQ -->
+<section class="section-g4m2">
+  <div class="n-wrap-g7">
+    <span class="section-label-t9p">FAQ</span>
+    <h2>자주 묻는 질문</h2>
+    <p class="sub-p-x7">가장 자주 받는 질문과 그에 대한 솔직한 답변.</p>
+
+    <div class="faq-list-r2">
+      <details class="faq-item-v7">
+        <summary>이대 노래방은 홍대 노래방과 뭐가 다른가요?</summary>
+        <div class="faq-body-a3">
+          핵심 차이는 업소 규모와 타겟 고객층이다. 홍대는 대형 업소·룸形式 노래방이 많고, 이대는 소규모·가족형·소개팅형 업소 비중이 높다. 음향 환경은 이대 쪽이 의외로 괜찮은 곳이 많지만, 시설 업그레이드 속도는 홍대가 빠르다. 가격은 이대가 전반적으로 10~15% 저렴한 편.
+        </div>
+      </details>
+      <details class="faq-item-v7">
+        <summary>예약이 필요한가요? 워크인으로 충분한가요?</summary>
+        <div class="faq-body-a3">
+          평일 오후라면 대부분 워크인 가능. 금·토 밤 9시 이후에는 예약이 권장된다. 대형 프랜차이즈는 예약 시스템이 있지만, 소규모 업소는 전화 예약이 전부인 곳이 많다. 단체(5인 이상) 이용이라면 무조건 사전 예약.
+        </div>
+      </details>
+      <details class="faq-item-v7">
+        <summary>음향이 좋은 곳과 시설이 좋은 곳은 같은 건가요?</summary>
+        <div class="faq-body-a3">
+          아니다. 음향이 좋다는 건 마이크·스피커·에코 처리가 잘 되었다는 뜻이고, 시설이 좋다는 건 인테리어·편의시설·위생 상태를 뜻한다. 둘 다 좋은 곳은 드물고, 보통 한쪽이 타협된다. 소리가 중요하면 음향 위주로, 분위기가 중요하면 시설 위주로 필터링할 것.
+        </div>
+      </details>
+      <details class="faq-item-v7">
+        <summary>이대역에서 가장 접근성 좋은 노래방은?</summary>
+        <div class="faq-body-a3">
+          2번 출구 바로 앞 메인 상권에 대형 프랜차이즈 2곳이 있다. 도보 1~2분 거리. 다만 접근성과 음향 퀄리티는 정비례하지 않는다. 접근성을 최우선으로 한다면 이 업소들이 답이지만, 소리 품질까지 고려하면 3~5분 걸어간 곳을 확인하는 게 낫다.
+        </div>
+      </details>
+      <details class="faq-item-v7">
+        <summary>야간(자정 이후) 이용이 가능한 곳이 있나요?</summary>
+        <div class="faq-body-a3">
+          있다. 이대역 인근에 새벽 2~3시까지 영업하는 업소가 소수存在한다. 다만 수가 제한적이고, 대부분 소규모 업소다. 24시간 운영 업소는 이 구간에서는 거의 없다고 봐도 무방하다. 자정 이후 방문 계획이라면 반드시 영업시간 확인 후 이동할 것.
+        </div>
+      </details>
+      <details class="faq-item-v7">
+        <summary>이 가이드의 추천 기준은 뭔가요?</summary>
+        <div class="faq-body-a3">
+          소리·공간·가격이라는 세 가지 핵심 조건으로 분류한다. 리뷰 수·평점·마케팅이 아닌, 실질적 이용 경험에 기반한 기준이다. "유명한 곳"이 아닌 "당신에게 맞는 곳"을 찾는 게 이 가이드의 존재 이유.
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-bottom-x1">
+  <div class="n-wrap-g7">
+    <h2>소리부터 확인할 준비 됐나요?</h2>
+    <p>정보는 쌓았으니, 이제 실질적 분석으로 넘어갈 차례다.</p>
+    <a href="https://idae-karaoke-note.best-samseong-hotplace.xyz/sound.html" class="btn-primary-q9">소리 조건 분석 보기 →</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer-c2">
+  <div class="n-wrap-g7">
+    <p>© 2025 이대 노래방 가이드 — 소리·공간·가격 기반 지역 분석 플랫폼</p>
+    <p style="margin-top: 6px;">이 페이지의 정보는 지역 기반 분석에 기반하며, 특정 업소의 광고가 아닙니다.</p>
+  </div>
+</footer>
 
 </body>
 </html>
