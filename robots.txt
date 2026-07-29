@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://idae-karaoke-note.best-samseong-hotplace.xyz/sitemap.xml
